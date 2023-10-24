@@ -1,0 +1,337 @@
+@media screen and (max-width:1510px){
+    .hero{
+        padding-top: 52px;
+        &__inner{
+            // position: relative;
+
+        }
+        &-bg__items{
+            top: 52px;
+            height: 100%;
+        }
+    }
+    .geography{
+        &-map{
+            &__item{
+                & svg{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    #reg-1 {
+        top: 27%;
+        left: 58%;
+    }
+    #reg-2{
+        bottom: 20.5%;
+        left: 63.5%;
+    }
+    #reg-3{
+        bottom: 21.5%;
+        left: 75.5%;
+    }
+}
+@media screen and (max-width:991px) {
+    .header{
+        &__logo{
+            // display: flex;
+            // justify-content: center;
+            & img{
+                width: 80%;
+            }
+        }
+        &__logo__bg{
+            left: 43%;
+            top: -33px;
+            width: 80%;
+            & svg{
+                width: 100%;
+            }
+        }
+        &__search{
+            margin-left: auto;
+            width: 250px;
+            margin-right: 25px;
+        }
+        // &__logo img{
+        //     width: 100px;
+        // }
+        &__nav{
+            display: none;
+        }
+        &-burger{
+            display: flex;
+        }
+    }
+    .hero{
+        &__inner{
+            padding: 170px 0;
+        }
+        &-bg__items{
+            max-height: 404px;
+        }
+    }
+    .news__items{
+        flex-wrap: wrap;
+    }
+    .news{
+        &-item{
+            width: calc((100% / 3) - 15px);
+        }
+    }
+    .products{
+        &__item{
+            width: calc((100% / 2) - 10px);
+        }
+    }
+    .services{
+        &__item{
+            width: calc((100% / 3) - 14px );
+        }
+    }
+    .geography{
+        &-map{
+            &__item{
+               
+            }
+        }
+    }
+    .points{
+        &-mark__name{
+            font-size: 14px;
+        }
+        &-mark{
+            & span{
+                width: 12px;
+                height: 12px;
+                font-size: 8px;
+            }
+        }
+    }
+    .footer{
+        &__nav{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
+@media screen and (max-width:770px){
+    .hero{
+        &__inner{
+            padding: 100px 0;
+        }
+        &__title{
+            font-size: 22px;
+        }
+        &-bg__items{
+            max-height: 244px;
+        }
+    }
+    .mission{
+        &__img{
+            height: 210px;
+        }
+    }
+    .news{
+        &-item{
+            width: calc((100% / 2) - 10px);
+        }
+    }
+    .services{
+        &__item{
+            width: calc((100% / 2) - 10px );
+        }
+    }
+    .points{
+        &-mark__name{
+            font-size: 8px;
+        }
+        // &-mark{
+        //     & span{
+        //         width: 12px;
+        //         height: 12px;
+        //         font-size: 8px;
+        //     }
+        // }
+    }
+    .footer{
+        padding-top: 50px;
+        &__menu{
+            gap: 20px;
+        }
+        &__columns{
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__map{
+            order: 2;
+            width: 100%;
+            height: 350px;
+            & > div{
+                height: 100%;
+            }
+            & iframe{
+                height: 100%;
+            }
+        }
+        &-info{
+            width: 100%;
+        }
+    }
+} 
+@media screen and (max-width:585px){
+    .header{
+        &__logo{
+            & img{
+                width: 80px;
+            }
+            &__bg{
+                left: 51%;
+                top: -43px;
+                width: 100%;
+            }
+        }
+        &__search{
+            padding: 5px 10px;
+            width: 150px;
+            & input{
+                font-size: 14px;
+            }
+        }
+        &__inner{
+            padding: 10px 0;
+        }
+    }
+    .mission{
+        padding: 35px 0;
+        &__inner{
+            flex-direction: column;
+        }
+        &__item{
+            width: 100%;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+    }
+    .title-black{
+        font-size: 18px;
+    }
+    .news{
+        padding: 35px 0;
+        &-item{
+            width: 100%;
+            &__info{
+                & p{
+                    font-size: 14px;
+                }
+            }
+        }
+        &__more{
+            margin-top: 25px;
+        }
+    }
+    .products{
+        padding: 35px 0;
+        &__item{
+            width: 100%;
+            &__descr{
+                font-size: 14px;
+            }
+        }
+    }
+    .services{
+        padding: 35px 0;
+        &__item{
+            width: 100%;
+            &__img{
+                height: 200px;
+            }
+            &__descr{
+                font-size: 14px;
+            }
+        }
+    }
+    .points{
+        &-list{
+            min-width: 91px;
+            & li{
+                padding: 5px;
+                & a{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    .geography{
+        &-map{
+            padding: 35px 0;
+            &__item{
+                margin-top: 25px;
+            }
+        }
+    }
+    .partners{
+        padding: 35px 0;
+        &__items{
+            gap: 20px;
+        }
+    }
+    .footer{
+        &__menu{
+            gap: 12px;
+            & li{
+                & a{
+                    font-size: 8px;
+                }
+            }
+        }
+        &__nav{
+            margin-top: 25px;
+        }
+        &__map{
+            height: 200px;
+        }
+        &-contacts__title{
+            font-size: 18px;
+        }
+        &-info__title{
+            font-size: 18px;
+        }
+        &-contacts{
+            &__item{
+                margin-bottom: 15px;
+            }
+        }
+        &__logo{
+            & img{
+                width: 100px;
+            }
+        }
+        &__copyright{
+            padding: 10px 0;
+            & p{
+                font-size: 10px;
+            }
+        }
+    }
+} 
+@media screen and (max-width:400px) {
+    .points{
+        &-mark__name {
+            font-size: 8px;
+            display: none;
+        }
+        &-mark{
+            & span{
+                width: 20px;
+                height: 20px;
+                font-size: 12px;
+            }
+        }
+    }
+}

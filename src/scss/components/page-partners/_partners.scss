@@ -1,0 +1,9 @@
+.page-partners{
+    padding-top: 0;
+    & .partners__title{
+        text-align:left;
+    }
+    & .partners__items{
+        margin-top: 30px;
+    }
+}

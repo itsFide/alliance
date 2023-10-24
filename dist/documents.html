@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AllianceEnergy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="home-page">
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <div class="header__logo__bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="190" height="132" viewBox="0 0 190 132" fill="none">
+                        <g filter="url(#filter0_d_106_1827)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10 0H180V97.624C180 99.0161 179.042 100.225 177.687 100.544L95 120L12.3129 100.544C10.9577 100.225 10 99.0161 10 97.624V0Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_106_1827" x="0" y="-8" width="190" height="140"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="2" />
+                                <feGaussianBlur stdDeviation="5" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.130781 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_106_1827" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_106_1827"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
+
+                <img src="images/logo.svg" alt="">
+            </a>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="contacts.html">
+                            Контакты
+                        </a>
+                    </li>
+                    <li>
+                        <a href="partners.html">
+                            Партнеры
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="about.html">
+                            О компании
+                        </a>
+                        <img src="images/menu-arrow.svg" alt="">
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Вакансии</a>
+                            </li>
+                            <li>
+                                <a href="#">Документы</a>
+                            </li>
+                            <li>
+                                <a href="#">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#">Отзывы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            Порфолио
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="products.html">
+                            Продукция
+                        </a>
+                        <img src="images/menu-arrow.svg" alt="">
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">АЛКИЛЭТАНОЛАМИНЫ</a>
+                            </li>
+                            <li>
+                                <a href="#">ГОРИЗОНТАЛЬНЫЙ НАСОСНЫЙ КОМПЛЕКС</a>
+                            </li>
+                            <li>
+                                <a href="#">ЕМКОСТНОЕ ОБОРУДОВАНИЕ</a>
+                            </li>
+                            <li>
+                                <a href="#">ИЗОБУТАН</a>
+                            </li>
+                            <li>
+                                <a href="#">МУЛЬТИФАЗНЫЕ НАСОСНЫЕ СТАНЦИИ</a>
+                            </li>
+                            <li>
+                                <a href="#">НЕИОНОГЕННЫЕ ПАВ</a>
+                            </li>
+                            <li>
+                                <a href="#">ОБОРУДОВАНИЕ ДЛЯ РАЗМАГНИЧИВАНИЯ ТРУБОПРОВОДОВ</a>
+                            </li>
+                            <li>
+                                <a href="#">ПОТОКОПРОВОДЯЩЕЕ ОБОРУДОВАНИЕ</a>
+                            </li>
+                            <li>
+                                <a href="#">ПРИСАДКИ</a>
+                            </li>
+                            <li>
+                                <a href="#">ПРОДУКЦИЯ ДЛЯ РАДИОГРАФИЧЕСКОГО КОНТРОЛЯ</a>
+                            </li>
+                            <li>
+                                <a href="#">ПРОМЫШЛЕННОЕ РЕНТГЕНОВСКОЕ ОБОРУДОВАНИЕ</a>
+                            </li>
+                            <li>
+                                <a href="#">ПРОПАН</a>
+                            </li>
+                            <li>
+                                <a href="#">ПРОПИЛЕН</a>
+                            </li>
+                            <li>
+                                <a href="#">СЕПАРАЦИОННОЕ ОБОРУДОВАНИЕ</a>
+                            </li>
+                            <li>
+                                <a href="#">ТЕПЛООБМЕННОЕ ОБОРУДОВАНИЕ</a>
+                            </li>
+                            <li>
+                                <a href="#">ТРИАЗИНЫ</a>
+                            </li>
+                            <li>
+                                <a href="#">УСТАНОВКИ ПОГРУЖНЫХ ЦЕНТРОБЕЖНЫХ НАСОСОВ</a>
+                            </li>
+                            <li>
+                                <a href="#">ЭТАНОЛАМИНЫ</a>
+                            </li>
+                            <li>
+                                <a href="#">ЭФИРЫ ЭТИЛЕНГЛИКОЛЕЙ И ПРОИЗВОДНЫЕ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            Услуги
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="header__search" action="" method="get">
+                <input name="s" placeholder="Поиск..." type="search">
+                <button type="submit"><img src="images/search.svg" alt=""></button>
+            </form>
+            <nav class="header__nav__mobile">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Контакты
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Партнеры
+                        </a>
+                    </li>
+                    <li class="has-child">
+                        <a href="">
+                            О компании
+                            <img src="images/menu-arrow.svg" alt="">
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="">Вакансии</a>
+                            </li>
+                            <li>
+                                <a href="#">Документы</a>
+                            </li>
+                            <li>
+                                <a href="#">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#">Отзывы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Порфолио
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Услуги
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="main">
+        <section class="documents">
+    <div class="container">
+        <div class="breadcrumbs">
+    <ul>
+        <li>
+            <a href="index.html">
+                Главная
+            </a>
+            <span>/</span>
+        </li>
+        <li>
+            <a class="this-element" href="#">
+                Документы
+            </a>
+        </li>
+    </ul>
+</div>
+        <div class="documents__inner">
+            <h2 class="title-black mb-30 documents__title">Документы</h2>
+            <div class="documents-items">
+                <div class="documents-item">
+                    <div class="documents-item__img">
+                        <a target="_blank" href="images/document-1.jpg"><img src="images/document-1.jpg" alt=""></a>
+                    </div>
+                    <p class="document-item__name">Сертификат соответствия системы менеджмента качества стандарту ИСО
+                        9001</p>
+                </div>
+                <div class="documents-item">
+                    <div class="documents-item__img">
+                        <a target="_blank" href="images/document-2.jpg"><img src="images/document-2.jpg" alt=""></a>
+                    </div>
+                    <p class="document-item__name">Свидетельство о государственной перерегистрации</p>
+                </div>
+                <div class="documents-item">
+                    <div class="documents-item__img">
+                        <a target="_blank" href="images/document-2.jpg"><img src="images/document-3.jpg" alt=""></a>
+                    </div>
+                    <p class="document-item__name">Свидетельство о постановке на регистрационный учет по НДС</p>
+                </div>
+                <div class="documents-item">
+                    <div class="documents-item__img">
+                        <a target="_blank" href="images/document-2.jpg"><img src="images/document-4.jpg" alt=""></a>
+                    </div>
+                    <p class="document-item__name">Свидетельство о государственной перерегистрации</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <div class="modal__wrapper">
+    <div class="modal">
+        <div class="modal__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 18 18" fill="none">
+                <path
+                    d="M8.00884 8.71632L8.3624 9.06987L8.71595 8.71632L8.3624 8.36276L8.00884 8.71632ZM8.71595 9.42342L9.0695 9.06987L8.71595 8.71632L8.3624 9.06987L8.71595 9.42342ZM9.42306 8.71632L9.0695 8.36276L8.71595 8.71632L9.0695 9.06987L9.42306 8.71632ZM8.71595 8.00921L8.3624 8.36276L8.71595 8.71632L9.0695 8.36276L8.71595 8.00921ZM1.92857 1.92893L2.63567 1.22183C2.24515 0.831301 1.61198 0.831302 1.22146 1.22183L1.92857 1.92893ZM1.92857 1.92893L1.22146 1.22183C0.830933 1.61235 0.830934 2.24552 1.22146 2.63604L1.92857 1.92893ZM8.3624 8.36276L1.92857 1.92893L1.22146 2.63604L7.65529 9.06987L8.3624 8.36276ZM1.64488 15.7874L8.3624 9.06987L7.65529 8.36276L0.937776 15.0803L1.64488 15.7874ZM1.64488 15.7874L0.937776 15.0803C0.547252 15.4708 0.54725 16.104 0.937776 16.4945L1.64488 15.7874ZM1.64488 15.7874L0.937776 16.4945C1.3283 16.885 1.96146 16.885 2.35199 16.4945L1.64488 15.7874ZM8.3624 9.06987L1.64488 15.7874L2.35199 16.4945L9.0695 9.77698L8.3624 9.06987ZM16.0707 16.0711L9.0695 9.06987L8.3624 9.77698L15.3636 16.7782L16.0707 16.0711ZM16.0707 16.0711L15.3636 16.7782C15.7541 17.1687 16.3873 17.1687 16.7778 16.7782L16.0707 16.0711ZM16.0707 16.0711L16.7778 16.7782C17.1683 16.3877 17.1683 15.7545 16.7778 15.364L16.0707 16.0711ZM9.0695 9.06987L16.0707 16.0711L16.7778 15.364L9.77661 8.36276L9.0695 9.06987ZM15.787 1.64525L9.0695 8.36276L9.77661 9.06987L16.4941 2.35236L15.787 1.64525ZM15.787 1.64525L16.4941 2.35236C16.8846 1.96183 16.8846 1.32867 16.4941 0.938143L15.787 1.64525ZM15.787 1.64525L16.4941 0.938143C16.1036 0.547618 15.4704 0.547619 15.0799 0.938143L15.787 1.64525ZM9.0695 8.36276L15.787 1.64525L15.0799 0.938143L8.3624 7.65566L9.0695 8.36276ZM1.92857 1.92893L8.3624 8.36276L9.0695 7.65566L2.63567 1.22183L1.92857 1.92893Z"
+                    fill="#979797"></path>
+            </svg>
+        </div>
+        <div class="modal__title"><span>Обратная связь</span> </div>
+        <div class="modal__body">
+            <form action="" method="post" class="contacts__form">
+                <input required type="text" placeholder="Имя">
+                <input required type="tel" placeholder="Номер">
+                <textarea name="" placeholder="Текст" id=""></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__columns">
+                <div class="footer__map">
+                    <!-- <iframe id="map_341674960" frameborder="0" width="100%" height="344px"
+                        sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe> -->
+                    <div style="position:relative;overflow:hidden;"><a
+                            href="https://yandex.kz/maps/163/astana/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">Астана</a><a
+                            href="https://yandex.kz/maps/163/astana/house/Y0gYcgZhTkwPQFtrfX13cX5jYg==/?ll=71.412305%2C51.160200&utm_medium=mapframe&utm_source=maps&z=17.7"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Сарыарка, 6 —
+                            Яндекс Карты</a><iframe
+                            src="https://yandex.kz/map-widget/v1/?ll=71.412305%2C51.160200&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg2NzM0OTc2MhJE0prQsNC30LDSm9GB0YLQsNC9LCDQkNGB0YLQsNC90LAsINCh0LDRgNGL0LDRgNKb0LAg0LTQsNKj0pPRi9C70YssIDYiCg3X0o5CFQykTEI%2C&z=17.7"
+                            width="560" height="400" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe></div>
+                </div>
+                <div class="footer-info">
+                    <h2 class="footer-info__title">Обратная связь</h2>
+                    <button class="modal__btn footer__btn">Обратная связь</button>
+                    <div class="footer-contacts">
+                        <h2 class="footer-contacts__title">Контакты</h2>
+                        <div class="footer-contacts__item">
+                            <img src="images/phone-icon.svg" alt="">
+                            <div class="flex-col">
+                                <a href="tel:87172568930">8 (7172) 56 89 30</a>
+                                <a href="tel:7172568930">(7172) 56 89 30</a>
+                            </div>
+                        </div>
+                        <div class="footer-contacts__item">
+                            <img src="images/address-icon.svg" alt="">
+                            <p>Проспект Сарыарка 6, БЦ «Арман», офис 1210, г. Астана, Казахстан</p>
+                        </div>
+                        <div class="footer-contacts__item">
+                            <img src="images/mail-icon.svg" alt="">
+                            <div class="flex-col">
+                                <p class="footer-contacts__subtitle">Обратная связь</p>
+                                <a href="mailto:info@allianceenergy.kz">e-mail: info@allianceenergy.kz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="footer__nav">
+                <div class="footer__logo">
+                    <a href="about.html">
+                        <img src="images/footer-logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="footer__menu">
+                    <li>
+                        <a href="">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="">Партнеры</a>
+                    </li>
+                    <li>
+                        <a href="">О компании</a>
+                    </li>
+                    <li>
+                        <a href="">Порфолио</a>
+                    </li>
+                    <li>
+                        <a href="">Продукция</a>
+                    </li>
+                    <li>
+                        <a href="">Услуги</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__copyright">
+                <p>©2014 ТОО «АльянсЭнергоПром»</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js/jquery-3.6.0.min.js?v=1.01"></script>
+    <script src="js/jquery.maskedinput.min.js?v=1.01"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+// html,body{
+//     overflow-x: hidden;
+// }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'PT Sans', sans-serif;
+    &.body-hidden{
+        overflow: hidden;
+    }
+}
+@font-face {
+    font-family: 'Constantia';
+    src: url('../fonts/Constantia.woff2');
+    font-weight: 400;
+}
+.container{
+    max-width: $mw;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title-white{
+    color: #FFF;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 25px; /* 125% */
+}
+.title-black{
+    color: var(--black);
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px; /* 125% */
+}
+.breadcrumbs{
+    padding-top: 150px;
+    margin-bottom: 50px;
+    & ul{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        & li{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            & a:hover{
+                opacity: 0.8;
+            }
+            & a,
+            & span{
+                transition: all .3s;
+                color: var(--black);
+                opacity: 0.5;
+                font-family: PT Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px; /* 125% */
+            }
+            
+        }
+    }
+}
+.mb-30{
+    margin-bottom: 30px;
+}
