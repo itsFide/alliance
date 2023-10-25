@@ -177,6 +177,9 @@
                         & img{
                             transform: rotate(-90deg);
                         }
+                        & .submenu{
+                            margin-top: 10px;
+                        }
                     }
                 }
 
@@ -191,7 +194,7 @@
             height: 0;
             background-color: transparent;
             // gap: 0;
-            margin-top: 10px;
+            // margin-top: 10px;
             display: block;
             overflow: hidden;
             transition: all .3s;
@@ -232,7 +235,7 @@
             font-weight: 400;
             line-height: 16px; /* 100% */
             border: none;
-            
+            background: transparent;
         }
         & button{
             background-color: transparent;

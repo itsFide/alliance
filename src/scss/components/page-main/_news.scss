@@ -140,5 +140,20 @@
             line-height: 20px; /* 125% */
         }
     }
-    
+    &:nth-child(1){
+        transition-duration: .5s !important;
+        transition-delay: 0ms;
+    }
+    &:nth-child(2){
+        transition-delay: 200ms;
+        transition-duration: .7s !important;
+    }
+    &:nth-child(3){
+        transition-delay: 400ms;
+        transition-duration: .9s !important;
+    }
+    &:nth-child(4){
+        transition-delay: 600ms;
+        transition-duration: 1.2s !important;
+    }
 }

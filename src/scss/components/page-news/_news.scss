@@ -26,6 +26,7 @@
 		}
 }
 .page-news .news-item {
+        transition: all .8s !important;
         width: calc((100% / 3) - 14px);
 		// .news-item__img
 
@@ -80,6 +81,7 @@
 		&__date {
             justify-content: start;
             gap: 5px;
+            margin-bottom: 0;
             & p{
                 font-size: 14px;
                 opacity: 0.7;

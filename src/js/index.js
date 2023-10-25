@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=>{
+    // AOS init
+    AOS.init();
+    
     //Mobile dropdown
     let dropdownTriggers = document.querySelectorAll('.header__nav__mobile li.has-child')
     dropdownTriggers.forEach(e=>{
