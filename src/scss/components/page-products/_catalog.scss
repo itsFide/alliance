@@ -21,6 +21,23 @@
 
     // .catalog-item__title
     width: 40.5%;
+    &__img{
+        width: 100%;
+        margin-bottom: 15px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 6px;
+        & img{
+            width: 100%;
+            border-radius: 6px;
+            height: 100%;
+            object-fit: cover;
+            transition: all .3s;
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
     &__title {
         color: var(--black);
         font-family: PT Sans;
